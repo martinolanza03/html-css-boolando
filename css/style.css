@@ -30,7 +30,7 @@ Container
 
 .container {
     width: 1400px;
-    margin: 0  auto;
+    margin: 0 auto;
 }
 
 nav.container {
@@ -66,10 +66,9 @@ Main
     height: 700px;
     width: calc(100% / 3);
     flex-shrink: 0;
-    gap: 20px;
     position: relative;
     display: inline-block;
-    
+    margin-right: 20px;
 }
 
 .discount{
