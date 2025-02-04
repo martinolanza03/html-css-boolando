@@ -14,6 +14,8 @@ Debug
 main div {
     border: 2px dotted black;
 }
+
+
 /******
 Header
 ******/
@@ -69,10 +71,30 @@ Main
     flex-shrink: 0;
     background-color: aqua;
     gap: 20px;
+    position: relative;
+    display: inline-block;
     
 }
+
+/******
+Hover Article
+******/
 
 div.articles img {
     height: 645px;
     width: 100%;
 }
+
+.articles .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.articles:hover .img-top {
+    display: inline;
+}
+
+
