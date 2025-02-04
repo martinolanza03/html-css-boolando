@@ -45,3 +45,21 @@ nav.container div {
     display: flex;
     gap: 10px;
 }
+
+main div.container {
+    display: flex;
+    padding-top: 130px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/******
+Main
+******/
+
+.article {
+    width: calc(100% / 3);
+    flex-shrink: 0;
+    background-color: aqua;
+    gap: 20px;
+}
