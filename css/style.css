@@ -9,6 +9,12 @@ Reset
 }
 
 /******
+Debug
+******/
+main div {
+    border: 2px dotted black;
+}
+/******
 Header
 ******/
 
@@ -57,9 +63,16 @@ main div.container {
 Main
 ******/
 
-.article {
+.articles {
+    height: 700px;
     width: calc(100% / 3);
     flex-shrink: 0;
     background-color: aqua;
     gap: 20px;
+    
+}
+
+div.articles img {
+    height: 645px;
+    width: 100%;
 }
