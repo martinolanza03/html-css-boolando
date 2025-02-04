@@ -64,11 +64,12 @@ Main
 
 .articles {
     height: 700px;
-    width: calc(100% / 3);
+    width: 446px;
     flex-shrink: 0;
     position: relative;
     display: inline-block;
-    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
 }
 
 .discount{
