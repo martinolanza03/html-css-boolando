@@ -20,7 +20,7 @@ header {
     width: 100%;
     background-color: #ff6900 ;
     position: fixed;
-    z-index: 3;
+    z-index: 99;
 }
 
 
@@ -105,6 +105,18 @@ Main
     font-weight: bold;
 }
 
+.number-discount {
+    color: #ff0000;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.cost-article {
+    color: #000000;
+    display: inline-block;
+    text-decoration: line-through;
+}
+
 /******
 Hover Article
 ******/
@@ -124,6 +136,26 @@ div.articles img {
 
 .articles:hover .img-top {
     display: inline;
+}
+
+.heart {
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #000000;
+    position: absolute;
+    top: 9px;
+    right: 0px;
+    z-index: 4;
+    padding: 12px 12px;
+    font-size: 25px;
+}
+
+.heart:hover {
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #ff0000;
 }
 
 
