@@ -77,6 +77,19 @@ Main
     
 }
 
+.discount{
+    width: 55px;
+    height: 25px;
+    background-color: #ff0000;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 580px;
+    z-index: 4;
+    padding: 3px;
+}
+
 /******
 Hover Article
 ******/
