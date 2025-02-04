@@ -13,14 +13,6 @@ body {
 }
 
 /******
-Debug
-******/
-main div {
-    border: 2px dotted black;
-}
-
-
-/******
 Header
 ******/
 
@@ -74,7 +66,6 @@ Main
     height: 700px;
     width: calc(100% / 3);
     flex-shrink: 0;
-    background-color: aqua;
     gap: 20px;
     position: relative;
     display: inline-block;
@@ -106,6 +97,12 @@ Main
     left: 60px;
     z-index: 4;
     padding: 4px;
+}
+
+.name-article {
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: bold;
 }
 
 /******
